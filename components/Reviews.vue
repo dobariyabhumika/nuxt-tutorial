@@ -118,6 +118,7 @@
           { key: 'sentiment', label: 'Sentiment', sortable: true, sortDirection: 'text-center' },
           { key: 'sentiment_polarity', label: 'Sentiment polarity', sortable: true, class: 'text-center' },
           { key: 'sentiment_subjectivity', label: 'Sentiment Subjectivity', sortable: true, class: 'text-center' },
+          { key: 'actions', label: 'Actions' }
         ],
         currentPage: 1,
         perPage: 5,
