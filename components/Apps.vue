@@ -73,7 +73,7 @@
 
           <template slot="actions" slot-scope="row">
             <b-button size="sm" @click="info(row.item, row.index, $event.target)" class="mr-1">
-              Info modal
+              Detail
             </b-button>
             <b-button size="sm" @click="row.toggleDetails">
               {{ row.detailsShowing ? 'Hide' : 'Show' }} Details
@@ -124,6 +124,7 @@
           { key: 'category', label: 'Category', sortable: true, sortDirection: 'text-center' },
           { key: 'rating', label: 'Rating', sortable: true, class: 'text-center' },
           { key: 'installs', label: 'Installs', sortable: true, class: 'text-center' },
+          { key: 'actions', label: 'Actions' }
         ],
         currentPage: 1,
         perPage: 5,
