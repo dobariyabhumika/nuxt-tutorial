@@ -4,7 +4,7 @@
       <b-button variant="info" class="add-app-btn">Add App</b-button>
       <!-- <b-table responsive striped hover :items="appData" /> -->
       <div>
-        <br>
+        <br/>
         <!-- User Interface controls -->
         <b-row>
           <b-col md="6" class="my-1">
